@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Explore Kiki Xia's portfolio showcasing her skills in UX design, UX research and front-end web development. Discover her design thinking process with case studies and work samples highlighting her ability to create intuitive and user-friendly digital experiences across pharmaceutical, financial and retail industries with Fortune 500 companies">
-        <title>Kiki Xia | UX Designer | UX Researcher | Front-end Developer</title>
+        <title>Kiki Xia | UX Designer | Researcher | Front-end Developer | Photographer</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -12,6 +12,9 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Bootstrap for iframe -->  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -27,9 +30,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="gallery/index.html" target="_blank">Gallery</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="gallery.html#gallery">Gallery</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -49,9 +52,50 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">UX Designer | Researcher | Developer | Photographer</p>
+                <p class="masthead-subheading font-weight-light mb-0">UX Designer | Researcher | Developer</p>
+                <p class="font-weight-light mb-0">Northeastern University | Harvard Extension School</p>
             </div>
         </header>
+
+                <!-- About Section-->
+                <section class="page-section bg-secondary text-white mb-0" id="about">
+                    <div class="container">
+                        <!-- About Section Heading-->
+                        <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                        <!-- Icon Divider-->
+                        <div class="divider-custom divider-light">
+                            <div class="divider-custom-line"></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                            <div class="divider-custom-line"></div>
+                        </div>
+                        <!-- About Section Content-->
+                        <div class="row">
+                            <div class="col-lg-6 ms-auto"><p class="lead">I am a seasoned UX designer and researcher with 8 years of experience across various industries. My passion is creating exceptional user experiences by blending empathy, creativity, and problem-solving to design digital products that meet both user expectations and business goals.</br></br>
+
+                            I hold a master’s degree in Informatics with a concentration in Human-Computer Interaction from Northeastern University, graduating with a 4.0 GPA. My expertise in user research, wireframing, prototyping, and user testing allows me to translate user insights into actionable designs. I am proficient in tools like Figma and Adobe, which I use to bring my design concepts to life as visual artifacts.
+
+                        </p>
+                            </div>
+                            <div class="col-lg-6 ms-auto"><p class="lead">To stay current with trends and technologies, I earned a graduate certificate in front-end web development from Harvard Extension School in 2024. This knowledge enables me to create digital products that are not only visually captivating, but also functional, and accessible.</br></br>
+
+                            Outside of work, I am an outdoor photographer, capturing the breathtaking beauty of nature through my lens. I'm also a digital product enthusiast, constantly exploring new technologies to stay ahead of the curve. I am dedicated to pushing the boundaries of design and innovation, always seeking new ways to create impactful user experiences.</p>
+                            </div>
+                        </div>
+                        <!-- Wordcloud Image-->
+                        <div class="container d-flex align-items-center flex-column">
+                            <img class="masthead-avatar mb-5 img-fluid" src="assets/img/portfolio/wordart.png" alt="word cloud" />
+                        </div>
+                        <!-- About Section Button-->
+                        <div class="text-center mt-4">
+                            <a class="btn btn-xl btn-outline-light" href="https://kikixia.neocities.org/KikiXia_Resume.pdf" target="_blank" download>
+                                <i class="fas fa-download me-2"></i>
+                                Resume
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -64,102 +108,21 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/dcu.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/xlens.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/dcuapp.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/wtc.png" alt="..." />
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/myvrends.png" alt="..." />
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/vloop.png" alt="..." />
-                        </div>
-                    </div>
-                    
+                <div class="wrapper">
+                <div class="responsive-iframe">
+                    <iframe class="responsive-iframe" src="https://onedrive.live.com/embed?resid=9337F15309B65640%2113552&authkey=!AMMvLN8Ne8_8Xrw&em=2" height="500px"></iframe>
+        
+                </div>
                 </div>
             </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-secondary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Greetings! I'm Kiki, a seasoned UX designer and researcher with nearly 7 years of experience. I have worked with Fortune 500 companies and startups across various industries, delivering intuitive and user-friendly digital experiences. As a problem solver and collaborative team player, I am passionate about user-centered design that meets both user needs and goals. My expertise in creating responsive and interactive websites and apps is informed by a deep understanding of user behavior and preferences. By leveraging this knowledge, I help clients improve user engagement and satisfaction, while achieving their business objectives.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">I've got my master's degree in Informatics with concentration on Human-computer Interaction(HCI) at Northeastern University in Boston, where I maintained a perfect 4.0 GPA. As a UX professional, I possess a diverse skill set that includes user research, wireframing, prototyping, and usability test. I'm committed to staying up-to-date with the latest trends and techniques in the industry to provide top-notch solutions for clients. Currently, I'm pursuing a front-end web development graduate certificate at Harvard Extension School to gain a deeper understanding of designing user interfaces that are not only visually appealing but also functional and accessible. My curiosity and passion for learning new technologies drive me to explore innovative approaches to problem-solving.</p></div>
-                    <div class="col-lg-4 ms-auto"><p class="lead">When I'm not immersed in the digital world, you'll find me capturing the raw beauty of nature through my lens as an outdoor photographer. My love for nature fuels my creativity and inspires me to create user experiences that are both visually stunning and intuitive. As a digital product geek, I enjoy exploring the latest technologies and tinkering with new gadgets. I'm always on the lookout for innovative ways to integrate emerging trends into my work to stay ahead of the curve. I also enjoy exploring my creative side as an indoor person. I love to paint and find it to be a relaxing way to unwind after a long day. I'm also passionate about trying out new workout routines to maintain a healthy lifestyle. And when I'm in the mood for something sweet, I like to experiment with new beverage recipes. These allow me to recharge and bring a fresh perspective to my work as well.</p></div>
-                </div>
-                <!-- Wordcloud Image-->
-                <div class="container d-flex align-items-center flex-column">
-                    <img class="masthead-avatar mb-5 img-fluid" src="assets/img/portfolio/wordart.png" alt="word cloud" />
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://kikixia.neocities.org/Resume_KikiXia.png" target="_blank">
-                        <i class="fas fa-download me-2"></i>
-                        Resume
-                    </a>
-                    <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/file/d/10wToUXpMNKMxfmGgJiexY-gtLvCiLsPO/view?usp=sharing" target="_blank">
-                        <i class="fas fa-eye me-2"></i>
-                        Portfolio
-                    </a>
-                </div>
+            <!-- Portfolio Button-->
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-dark" href="https://1drv.ms/b/s!AkBWtglT8TeT6W-ylErK91Rfcxtt?e=eZqLC1" target="_blank">
+                    <i class="fas fa-eye me-2"></i>
+                    Portfolio
+                </a>
             </div>
         </section>
-
 
 
 
@@ -172,7 +135,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            Boston | Shanghai | Elsewhere on Earth
+                            Greater Boston Area
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
@@ -185,7 +148,7 @@
                     <!-- Footer About Text-->
                     <div class="col-lg-4">                  
                         <p class="lead mb-0">                           
-                            <i class="fa-regular fa-envelope"></i>Email: <a class="text-secondary" href="mailto:wenqixia99@gmail.com">wenqixia99@gmail.com</a>                           
+                            <i class="fa-regular fa-envelope"></i> Email: <a class="text-secondary" href="mailto:wenqixia99@gmail.com">wenqixia99@gmail.com</a>                           
                         </p>
                     </div>
                 </div>
@@ -197,330 +160,7 @@
         </div>
 
 
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DCU Website</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcu.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><i>Revamp current webpages for various products and services to promote web consistency and encourage more user engagement through a user-friendly experience.</i></p>
-                                    <p class="mb-4"><b>Project Overview:</b> The call center has reported a substantial increase in call volume over the past 6 months, specifically for loan applications and payments. Concurrently, the UX team has analyzed web analytics data and identified a decline in conversion rates and return visits for DCU's prospect pages. This could be attributed to a fragmented process causing pain points for members. Therefore, the UX team has spearheaded a brainstorming session with various business departments to explore potential areas for improvement across DCU's prospect pages and add a support center page with self-serve tools to help members with their routine banking activities.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuweb1.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuweb2.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuweb3.png" alt="..." />
-                                    <p class="mb-4"><b>Business Goals:</b> Boost loan applications and reduce abandon rate; Guide members to make loan payments easily and quickly; Reduce calll volume in terms of general banking services such as loan applications, payments, statements, etc.</p>
-                                    <p class="mb-4"><b>Challenges:</b> How to create consistent end-to-end user journeys across prospect pages to provide seamless self-services and encourage users to take next steps for loan applications and payments to meet both user needs and business goals. How to help members easily find related questions and solutions on support center page before they call customer service.</p>
-                                    <p class="mb-4"><b>Solutions:</b> Conduct workshops with various stakeholders to create service blueprints and customer journey maps. This will help in gaining a deeper understanding of how users interact with our products and services. Identify any obstacles across various touchpoints and processes, and explore opportunities for enhancements. To ensure a clear hierarchical layout, revamp current webpages using Gestalt Principles. Moreover, simplify content using data visualization to present information in a more intuitive manner. To provide seamless workflows, incorporate pre-filled information and clear calls to action (CTAs).</p>
-                                    <p class="mb-4"><b>My Role:</b> UX Researcher & UX Designer</p>
-                                    <p class="mb-4"><b>My Process:</b> To improve the loan application and payment process, I conducted extensive user research to identify common features used by competitors and collected insights from the business line. I then conducted user testing to pinpoint pain points and understand users' needs and preferences. To visualize how users interact with the application and payment process, I created user personas, user stories, and flow maps to capture different touch points and potential opportunities for improvements. Working alongside other designers, I created low-fidelity and high-fidelity wireframes and prototypes.</p>
-                                    <p class="mb-4"><b>Next Steps:</b> After the webpages were published, I monitored and analyzed web performance using Adobe Analytics and Quantum Metric. By comparing metrics such as visits, clicks, conversion rate, and average time on page with established baselines, I was able to identify areas for improvement. With this information, I provided relevant recommendations and tested and validated new designs to further iterate and improve the user experience. Through ongoing analysis and testing, I ensured that the webpages continued to meet user needs and expectations.</p>
-                                    <p class="mb-4"><b>UX Artifacts:</b></p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/userstory.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/userjourney.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/taxonomy.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/workflows.jpg" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/posh.jpg" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuwireframes.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/page_comparision.png" alt="..." />
 
-                                    <div class="text-center mt-4">
-                                        <a class="btn btn-primary mx-1 my-1" href="https://www.dcu.org" target="_blank">
-                                            <i class="fas fa-eye me-2"></i>
-                                            Visit Website
-                                        </a>
-                                        <button class="btn btn-primary mx-1 my-1" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">X-lens Photography</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/xlens.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><i>An e-commerce app that helps local photography studio transit to new business model by selling photos and printings online.</i></p>
-                                    <p class="mb-4"><b>Project Overview:</b> Since pandemic hit, a lot of local small businesses have been struggling and facing new challenges due to lockdowns and economic uncertainties. To help them with business transition, an e-commerce app was introduced to a local photography studio for selling photos and printings online.
-                                    </p>
-                                    <p class="mb-4"><b>Pain Points:</b> <br>
-                                        Regulations - Local stores were locked down following the state’s regulations and people couldn’t visit the store in person.<br>
-                                        Space - The space of the studio is limited that it can’t display all the works.<br>
-                                        Format - Sometimes, customers only want the digital version of the photos instead of the printing version.</p>
-                                    <p class="mb-4"><b>Goal:</b> Design an app that allows customers to view all the photos and buy directly instead of visiting the store.</p>
-                                    <p class="mb-4"><b>My Role:</b> UX Designer & UI Designer</p>
-                                    <p class="mb-4"><b>My Process:</b> I conducted user interviews to gain insights from real customers needs and behaviors when using the app. This information was used to create a user journey map and define user personas, which helped to establish primary user groups and goals. I also conducted user research to define the business goals and integrated these with the user needs to create low-fidelity wireframes. Based on usability testing, I iterated the user flows and UI patterns before refining them with high-fidelity mockups. This iterative process helped to ensure that the final product met the needs and expectations of both the users and the business..</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/persona.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/journeymap.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lowfi1.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/usability.png" alt="..." />
-                                    <p class="mb-4">For the first usability study, I found that the banners weighed too much of the whole page. So I integrated them with a slideshow and add one more row for the featured photos. I also add a CTA button for the member enrollment.
-                                        For the second usability study, I noticed that I made every single checkout step with one page. This made users impatient. So I integrated the shipping info, method and payment info together with one page to simply the process.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lowfi2.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/hifi.png" alt="..." />
-                                    <p class="mb-4"><b>Accessibility Considerations: </b>
-                                        <li>Add image alt and descriptions</li>
-                                        <li>Use high contrast and lines to differentiate different sections</li>
-                                    </p>
-
-                                    <p class="mb-4"><b>Key Takeaways: </b></p>
-                                    <p><b>Impact </b>- The app brings the same experience for users to view the photo gallery and pick up whatever they like. With more convenience, users can easily make an order at anytime, anywhere.</p>
-                                    <p><i>"I can just stay at home and view all the magnificent photos. I can even know which formats it provides for the digital versions."</i> --Mike</p>
-
-                                    <p><b>What I Learned </b>- User interview helps me better emphasize user’s needs and pain points. User research gets me more background to understand business needs. Usability study helps me dive deep in the functionality of the app.</p>
-
-                                    <div class="text-center mt-4">
-                                        <a class="btn btn-primary mx-1 my-1" href="https://www.figma.com/proto/QA2Lk6HKTtmOathQVM8KF1/Photography-App?page-id=82%3A0&node-id=239%3A911&viewport=241%2C48%2C0.59&scaling=min-zoom&starting-point-node-id=239%3A911" target="_blank">
-                                            <i class="fas fa-eye me-2"></i>
-                                            View Prototype
-                                        </a>
-                                        <button class="btn btn-primary mx-1 my-1" data-bs-dismiss="modal">
-                                            <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DCU Mobile Banking APP</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><i>A digital banking platform that brings together innovative tools and unique features to put members in the financial driver’s seat. </i></p>
-                                    <p class="mb-4"><b>Project Overview:</b> Business has discovered that members are having difficulty finding items when using DCU digital banking website or app. This has led to negative reviews on social media and low ratings in app store. Business is seeking solutions from UX team to improve member’s digital experience.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp1.png" alt="..." />
-                                    <p class="mb-4"><b>Solutions:</b> We’d like to conduct a couple of user research and testing based on current information architecture and to understand users’ expectations and understanding of the topics within Membership tab and how they would organize and name topics into categories in the way that makes sense to them. And what, if any, optimizations could be made. </p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp2.png" alt="..." />
-                                    <p class="mb-4"><b>My Role:</b> UX Researcher & UX Designer</p>
-                                    <p class="mb-4"><b>My Process:</b> Compared with other financial institutions to get insights into their products and services, identify gaps and seek for opportunities. Reviewed existing data such as survey results, app reviews, social media comments, call reasons, recordings, searches, etc. to identify top user pain points. Facilitated UX Workshop to discover and empathize user pain points focused on 9 categories. Examined data collected from workshops and used Affinity Map to identify common pain points, user insights and opportunities for improvements. Conduct a couple of user research and testing based on current information architecture and to understand users’ expectations and understanding of the topics within Membership tab and how they would organize and name topics into categories in the way that makes sense to them. And what, if any, optimizations could be made. </p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp3.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp4.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp5.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp6.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp7.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp8.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp9.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp10.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp11.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dcuapp12.png" alt="..." />
-                                    <p class="mb-4"><b>Next Steps:</b> Review label recommendations with stakeholders. Identify proposed structure for membership tab & run a closed card sort for validation. Conduct tree test with the proposed structure and compare it with initial test results. Share usability test results with stakeholder and get aligned on the prioritized task list.</p>
-                                    <div class="text-center mt-4">
-                                        <button class="btn btn-primary mx-1 my-1" data-bs-dismiss="modal">
-                                            <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">WTC Website</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wtc.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><i>As an international business community, it is about to launch new Academy page to its official website.</i></p>
-                                    <p class="mb-4"><b>Project Overview:</b> To make the WTC Atlanta website a more contemporary international business community, my project aims to design a prototype focusing on the Home and Academy page, which provides a platform for members and partners to explore and share business resources and learn and develop business skills.</p>
-                                    <p class="mb-4"><b>Pain Points:</b> Company was losing web traffic. Users found it difficult to navigate to specific content. Content wasn’t attractive and interactive enough to keep users stay on the page.</p>
-                                    <p class="mb-4"><b>Solutions:</b> Focus on the Home and Academy page to provide a platform for members and partners to explore and share business resources and learn and develop business skills.</p>
-                                    <p class="mb-4"><b>My Role:</b> UX Researcher & UX Designer</p>
-                                    <p class="mb-4"><b>My Process:</b> As a team leader, I organized and conducted user interviews while maintaining communication with stakeholders and users to keep the project on track. Our team collected valuable user feedback and pain points which were translated into personas, storyboards, and scenarios for wireframes and prototypes. Through iterative design based on user testing, we created a high-fidelity mockup of the website that successfully met both business and user goals.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/process.jpg" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wtcIA.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/WTCpersona.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wtcwireframes.png" alt="..." />
-
-                                    <div class="text-center mt-4">
-                                        <a class="btn btn-primary mx-1 my-1" href="https://www.wtcatlanta.com/" target="_blank">
-                                            <i class="fas fa-eye me-2"></i>
-                                            Visit Website
-                                        </a>
-                                        <button class="btn btn-primary mx-1 my-1" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">V-loop Video App</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/vloop.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><i>A web-based video sharing app that allows users to record individual video and get stitched with your friend's together as a group video to share with your family and friends.</i></p>
-                                    <p class="mb-4"><b>Project Overview:</b> Since the pandemic began, it has become increasingly difficult for families to travel and reunite. Many have been separated due to border closures and flight cancellations. To help alleviate the strain of being apart during important holidays and anniversaries, I have developed an idea for a group video sharing web app. This app would enable families and friends to come together and celebrate big events, no matter their distance or physical location. </p>
-                                    <p class="mb-4"><b>Challenges:</b> How to make it responsive on different devices? By which method could users share videos with others? Which web API should I apply? Where should I store all the data? How to protect users' personal information?</p>
-                                    <p class="mb-4"><b>My Role:</b> UX Designer & Front-end Developer</p>
-                                    <p class="mb-4"><b>My Process:</b> I have drafted a comprehensive project plan that outlines the requirements, goals, deliverables, and timeline for the video app project. To ensure that the app meets the needs of users, I conducted interviews with over 10 participants to better understand their needs and behaviors when using video apps. In addition, I conducted competitor analysis to identify common features and functionality that could be adopted in the new app.<br>
-
-                                    To ensure a seamless end-to-end user journey, I mapped out the information architecture and estimated the number of webpages needed. Using two different concepts, I created low-fi wireframes and conducted A/B testing to determine which concept had a higher user score. Based on user feedback, I iterated the wireframes and made layout improvements.<br>
-                                        
-                                    Once the wireframes and prototypes were finalized, I handed them off to the graphic design team for styling. As a front-end developer, I collaborated with two other developers to write code using HTML, CSS, and JavaScript.<br>
-                                        
-                                    Moving forward, we plan to work with back-end developers to integrate video API into the web app. We will then test and iterate the app before deployment to ensure that it meets user needs and expectations.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/videosketch.jpg" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/videoapp.png" alt="..." />
-                                    <div class="text-center mt-4">
-                                        <a class="btn btn-primary mx-1 my-1" href="https://www.figma.com/proto/zI3IarwQgj0ObndkP1lfJT/Kiki---Video-App-Prototype?node-id=5%3A2&scaling=scale-down" target="_blank">
-                                            <i class="fas fa-eye me-2"></i>
-                                            View Prototype
-                                        </a>
-                                        <button class="btn btn-primary mx-1 my-1" data-bs-dismiss="modal">
-                                            <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-    
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MyVrends Social App</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/myvrends.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><i>A social life app for college students designed to help combat loneliness and facilitate the creation of new friendships. </i></p>
-                                    <p class="mb-4"><b>Project Overview:</b> According to a 2017 survey of nearly 48,000 students from Madison University, 64% reported feeling extremely lonely in the past year. MyVrends aims to address this issue by helping students explore their local communities and expand their social networks based on shared interests. The app offers features that allow users to host events, activities, and clubs to meet new friends. It also keeps users updated on nearby events and offers convenient tools to simplify daily life. With MyVrends, college students can find like-minded peers and build meaningful relationships, all while combating the pervasive issue of loneliness on college campuses. </p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/app_sample.png" alt="..." />
-                                    <p class="mb-4"><b>Pain Points:</b> Newly enrolled international students often struggle to settle into a new community and feel at home. They face the challenge of adjusting to a new culture while trying to absorb all that college life has to offer. To address this issue, our app offers solutions that cater specifically to the needs of these students. One of the main pain points is the lack of resources to help them navigate their new surroundings. Our app provides a variety of features to address this, including event creation, carpooling, membership sharing, and coupon referrals. These functions not only help new students feel more at ease, but also foster a sense of community and belonging.</p>
-                                    <p class="mb-4"><b>Challenges:</b> How to protect personal information? What operating system is supported? How to promote the app among students? What benefits can they get? </p>
-                                    <p class="mb-4"><b>Solutions:</b> To protect users' personal information, we deploy Google Firebase cloud for data storage and enable multi-factor authentication. Our app is available on both iOS and Android operating systems, making it accessible to the majority of mobile users. With a unique QR code referral system, users can invite friends to download the app and earn referral points. Promoting the app to students can be a challenge, but our app offers a unique value proposition to new students. By providing them with the resources they need to adjust and thrive in their new environment, we make it easier for them to enjoy all that college life has to offer.
-                                    </p>
-                                    <p class="mb-4"><b>My Role:</b> UX Designer & App Developer</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/myvrends2.png" alt="..." />
-                                    <p class="mb-4"><b>My Process:</b> Based on existing research data, I developed user personas representing our target audience with different personalities. I also created user flows and journey maps to identify potential user frustrations when interacting with our app. Feedback from user interviews helped me prioritize features using affinity maps to ensure the app meets user needs.<br>I designed low-fi wireframes with two concepts and ran internal A/B testing, making changes to the layout and UI based on feedback. I also conducted A/B testing targeting participants aged 18-26 while designing UI elements for hi-fi wireframes, including navigation menu icons and a promotion email template.<br>After testing and iteration, we worked as app developers to implement and deploy the app over third-party platforms, launching it on the Apple App Store and Google Play Store. By focusing on user needs and iterating based on feedback, we created an app that truly meets the needs of our target audience.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/pdlc.png" alt="..." />
-                                    <p class="mb-4"><b>Next Steps:</b> Since the launch of our app, we have received valuable feedback from users across multiple channels, including both positive and negative feedback. To further improve our app and address user concerns, we are planning to incorporate testing and iteration in our next product cycle. By incorporating user feedback, we can ensure that our app meets the needs of our users and continues to provide a positive user experience.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/myvrends3.png" alt="..." />
-                                    <div class="text-center mt-4">
-                                        <a class="btn btn-primary mx-1 my-1" href="https://www.figma.com/proto/GQn771g4JFXUiK01Rr4djL/Kiki---MyVrends?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1" target="_blank">
-                                            <i class="fas fa-eye me-2"></i>
-                                            View Prototype
-                                        </a>
-                                        <button class="btn btn-primary mx-1 my-1" data-bs-dismiss="modal">
-                                            <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
         <!-- Bootstrap core JS-->

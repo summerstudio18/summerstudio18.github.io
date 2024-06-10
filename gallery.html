@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Explore Kiki Xia's portfolio showcasing her skills in UX design, UX research and front-end web development. Discover her design thinking process with case studies and work samples highlighting her ability to create intuitive and user-friendly digital experiences across pharmaceutical, financial and retail industries with Fortune 500 companies">
+    <title>Kiki Xia | UX Designer | Researcher | Front-end Developer | Photographer</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap for iframe -->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .gallery-item {
+            margin-bottom: 15px;
+        }
+        .img-fluid {
+            cursor: pointer;
+        }
+        .nav-tabs .nav-link.active {
+            background-color: #1abc9c; /* Change to your preferred background color */
+            color: #fff; /* Change to your preferred text color */
+        }
+        .pagination li {
+            border: none; /* Remove border */
+            margin: 0 2px; /* Adjust margin if needed */
+        }
+        .pagination .page-link {
+            border: none; /* Remove border */
+            color: #1abc9c; /* Change to your preferred text color */
+        }
+    </style>
+</head>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg bg-warning text-uppercase fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/kx_logo.png" alt="logo"></a>
+
+          <button class="navbar-toggler text-uppercase font-weight-bold bg-light text-secondary rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">About</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#portfolio">Portfolio</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="gallery.html" style="color:#1abc9c;">Gallery</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#contact">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Masthead-->
+  <header class="masthead text-dark bg-light text-center">
+      <div class="container d-flex align-items-center flex-column">
+          <!-- Masthead Avatar Image-->
+          <img class="masthead-avatar mb-5" src="assets/img/avatar.PNG" alt="..." />
+          <!-- Masthead Heading-->
+          <h1 class="masthead-heading text-uppercase mb-0">Kiki Xia</h1>
+          <!-- Icon Divider-->
+          <div class="divider-custom divider-secondary">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+              <div class="divider-custom-line"></div>
+          </div>
+          <!-- Masthead Subheading-->
+          <p class="masthead-subheading font-weight-light mb-0">Whether it's through my phone or camera, I find myself compelled to capture the essence of the world around me.</p>
+          <p class="font-weight-light mb-0">Step into a realm where pixels dance and emotions unfold. Immerse yourself in the beauty of the world as seen through my lens.</p>
+      </div>
+  </header>
+
+  <div class="container mt-4" id="gallery">
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs d-none d-md-flex" id="galleryTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Featured</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="landscape-tab" data-bs-toggle="tab" href="#landscape" role="tab" aria-controls="landscape" aria-selected="false">Landscape</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="drone-tab" data-bs-toggle="tab" href="#drone" role="tab" aria-controls="drone" aria-selected="false">Aerial</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="street-tab" data-bs-toggle="tab" href="#street" role="tab" aria-controls="street" aria-selected="false">Street</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="architecture-tab" data-bs-toggle="tab" href="#architecture" role="tab" aria-controls="architecture" aria-selected="false">Architecture</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="wildlife-tab" data-bs-toggle="tab" href="#wildlife" role="tab" aria-controls="wildlife" aria-selected="false">Wildlife</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="macro-tab" data-bs-toggle="tab" href="#macro" role="tab" aria-controls="macro" aria-selected="false">Macro</a>
+        </li>
+    </ul>
+
+    <!-- Dropdown for mobile view -->
+    <div class="dropdown d-md-none mb-4">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="galleryDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            All
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="galleryDropdown">
+            <li><a class="dropdown-item" href="#" data-value="all">All</a></li>
+            <li><a class="dropdown-item" href="#" data-value="landscape">Landscape</a></li>
+            <li><a class="dropdown-item" href="#" data-value="drone">Aerial</a></li>
+            <li><a class="dropdown-item" href="#" data-value="street">Street</a></li>
+            <li><a class="dropdown-item" href="#" data-value="architecture">Architecture</a></li>
+            <li><a class="dropdown-item" href="#" data-value="wildlife">Wildlife</a></li>
+            <li><a class="dropdown-item" href="#" data-value="macro">Macro</a></li>
+        </ul>
+    </div>
+
+    <!-- Tab content -->
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+            <div class="row" id="all-gallery">
+                <!-- All gallery items will be appended here by JavaScript -->
+            </div>
+            <!-- Pagination controls -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="all-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+        <div class="tab-pane fade" id="landscape" role="tabpanel" aria-labelledby="landscape-tab">
+            <div class="row" id="landscape-gallery">
+                <!-- Landscape gallery items will be appended here by JavaScript -->
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="landscape-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+        <div class="tab-pane fade" id="drone" role="tabpanel" aria-labelledby="drone-tab">
+            <div class="row" id="drone-gallery">
+                <!-- Drone gallery items will be appended here by JavaScript -->
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="drone-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+        <div class="tab-pane fade" id="street" role="tabpanel" aria-labelledby="street-tab">
+            <div class="row" id="street-gallery">
+                <!-- Street gallery items will be appended here by JavaScript -->
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="street-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+        <div class="tab-pane fade" id="architecture" role="tabpanel" aria-labelledby="architecture-tab">
+            <div class="row" id="architecture-gallery">
+                <!-- Wildlife gallery items will be appended here by JavaScript -->
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="architecture-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+        <div class="tab-pane fade" id="wildlife" role="tabpanel" aria-labelledby="wildlife-tab">
+            <div class="row" id="wildlife-gallery">
+                <!-- Wildlife gallery items will be appended here by JavaScript -->
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="wildlife-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+        <div class="tab-pane fade" id="macro" role="tabpanel" aria-labelledby="macro-tab">
+            <div class="row" id="macro-gallery">
+                <!-- Macro gallery items will be appended here by JavaScript -->
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-4" id="macro-pagination">
+                    <!-- Pagination items will be appended here by JavaScript -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Modal for image display -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Image Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" src="" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Footer-->
+        <footer class="footer text-center text-secondary" id="contact">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Greater Boston Area
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">You can also find me here</h4>
+                        <a class="btn btn-outline-secondary btn-social mx-1" href="https://www.linkedin.com/in/wenqixia/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-secondary btn-social mx-1" href="https://www.instagram.com/iamkikixia/"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-secondary btn-social mx-1" href="https://dribbble.com/puppyqiqi"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">                  
+                        <p class="lead mb-0">                           
+                            <i class="fa-regular fa-envelope"></i> Email: <a class="text-secondary" href="mailto:wenqixia99@gmail.com">wenqixia99@gmail.com</a>                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-1 text-center text-white">
+             <p>Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | Kiki Xia </p>
+        </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+        const images = {
+            all: [
+
+                { src: "https://live.staticflickr.com/65535/53768292980_6e950b9501_z.jpg", alt: "Horseshoe Bend" },
+                { src: "https://live.staticflickr.com/65535/53767874891_b1f7e25e1e_z.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768067098_00c3d6b684_z.jpg", alt: "Yellowstone National Park" },
+
+                { src: "https://live.staticflickr.com/65535/53766110872_846a9debae_c.jpg", alt: "Lighthouse in Kittery, Maine" },
+                { src: "https://live.staticflickr.com/65535/53767021086_61b5b4a3eb_b.jpg", alt: "Drone view of Fort Forster" },
+                { src: "https://live.staticflickr.com/65535/53767021306_fb015110ba_c.jpg", alt: "Drone view of Lynn Beach" },
+
+                { src: "https://live.staticflickr.com/65535/53770617870_66ab8ee8d0_z.jpg", alt: "a temple in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53768067093_fc924bde44_z.jpg", alt: "Portland Head Light, Maine" },
+                { src: "https://live.staticflickr.com/65535/53770196956_33f9ec0a91_z.jpg", alt: "Victoria Harbor in Hong Kong" },
+
+                { src: "https://live.staticflickr.com/65535/53771375277_5a986ac62d_z.jpg", alt: "Swiss cows" },
+                { src: "https://live.staticflickr.com/65535/53770197076_cec93c42b0_z.jpg", alt: "Golden Gate Bridge" },
+                { src: "https://live.staticflickr.com/65535/53768199949_f1832d9721_z.jpg", alt: "Sleepy Hollow Farm, Vermont" },
+
+                
+
+            ],
+            landscape: [
+                { src: "https://live.staticflickr.com/65535/53767661386_102706dc95_b.jpg", alt: "Train in North Conway" },
+                { src: "https://live.staticflickr.com/65535/53768019769_cf16f8d9f3_b.jpg", alt: "Lungern, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768019764_6d6d0cb293_b.jpg", alt: "Lungern, Switzerland" },
+
+                { src: "https://live.staticflickr.com/65535/53766867877_b05d5336cc_h.jpg", alt: "Jungfrau, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768111085_42fa496509_b.jpg", alt: "Zermatt, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53767969578_32d3b51c88_b.jpg", alt: "Cali" },
+
+                { src: "https://live.staticflickr.com/65535/53767969583_fb06de61f0_b.jpg", alt: "Jungfrau, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768103824_f8a0a78eca_b.jpg", alt: "Jungfrau, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768103834_6fa0d881d6_b.jpg", alt: "Matterhorn, Switzerland" },
+
+                { src: "https://live.staticflickr.com/65535/53768195260_2523b3b4f6_b.jpg", alt: "Matterhorn, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768195250_f62ca5f2bc_b.jpg", alt: "Grindelwald, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53767969628_561cf73608_b.jpg", alt: "Lauterbrunnen, Switzerland" },
+                
+                { src: "https://live.staticflickr.com/65535/53768195270_292c6f3c12_b.jpg", alt: "Train crossing Lungern, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768103854_df741df5c9_b.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53766867927_f081596acd_b.jpg", alt: "Vermont" },
+
+                { src: "https://live.staticflickr.com/65535/53766867967_46bfec7647_b.jpg", alt: "Train crossing the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768195290_0870f8efe3_b.jpg", alt: "Grand Canyon" },
+                { src: "https://live.staticflickr.com/65535/53768103874_39ef968769_b.jpg", alt: "the Alps, Switzerland" },
+
+                { src: "https://live.staticflickr.com/65535/53767778271_784d1ef0d0_b.jpg", alt: "Matterhorn, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53767969698_b4bb00e9fa_b.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768195335_c2a4ca9773_b.jpg", alt: "Bryce Canyon" },
+
+                { src: "https://live.staticflickr.com/65535/53766868007_db02e5dcc5_b.jpg", alt: "Vermont" },
+                { src: "https://live.staticflickr.com/65535/53766868012_3c816eba75_b.jpg", alt: "Bryce Canyon" },
+                { src: "https://live.staticflickr.com/65535/53767969718_cb78317247_b.jpg", alt: "Cherry Blossom" },
+
+                { src: "https://live.staticflickr.com/65535/53766868022_11e73e8ee5_b.jpg", alt: "Banff, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768195355_52b709e661_b.jpg", alt: "Horseshoe Bend" },
+                { src: "https://live.staticflickr.com/65535/53766868032_241dab9be1_b.jpg", alt: "Arches National Park" },
+
+                { src: "https://live.staticflickr.com/65535/53767778311_e1cba68f15_b.jpg", alt: "Jasper National Park" },
+                { src: "https://live.staticflickr.com/65535/53768103964_3e8b380786_b.jpg", alt: "The Basin, New Hampshire" },
+                { src: "https://live.staticflickr.com/65535/53768111080_b86cbc625b_b.jpg", alt: "Portland Head Light, Maine" },
+
+                { src: "https://live.staticflickr.com/65535/53767865571_c1f0decac0_c.jpg", alt: "Niagara Fall, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768057283_149bf02b5d_b.jpg", alt: "Kittery, Maine" },
+                { src: "https://live.staticflickr.com/65535/53766953677_2d5668b448_c.jpg", alt: "New Hampshire" },
+
+                { src: "https://live.staticflickr.com/65535/53768066843_e03ae0067b_z.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768199844_3c598c09e5_c.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53766963362_62848125ba_z.jpg", alt: "the Alps, Switzerland" },
+
+                { src: "https://live.staticflickr.com/65535/53768292905_b21d41a15a_z.jpg", alt: "Lucerne, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53767874891_b1f7e25e1e_z.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768066868_1d29f67d03_z.jpg", alt: "New Hampshire" },
+
+                { src: "https://live.staticflickr.com/65535/53766963377_87c9e53096_z.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53768199854_f912bc627e_z.jpg", alt: "the Alps, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53767874901_5a397f4941_z.jpg", alt: "the Alps, Switzerland" },
+
+                { src: "https://live.staticflickr.com/65535/53768292915_8b2ed4d36a_z.jpg", alt: "Lungern, Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53766963382_5e5efbab51_z.jpg", alt: "Yellowstone National Park" },
+                { src: "https://live.staticflickr.com/65535/53768199859_4b79b482e7_z.jpg", alt: "Grand Teton" },
+
+                { src: "https://live.staticflickr.com/65535/53768066898_cc3b6ea749_z.jpg", alt: "Bryce Canyon" },
+                { src: "https://live.staticflickr.com/65535/53768066903_59538b680d_z.jpg", alt: "Pacific Highway" },
+                { src: "https://live.staticflickr.com/65535/53768199864_95903af826_z.jpg", alt: "the Pacific" },
+
+                { src: "https://live.staticflickr.com/65535/53768066908_c9a8155eb3_z.jpg", alt: "North Conway" },
+                { src: "https://live.staticflickr.com/65535/53768066913_1b4f233ab2_z.jpg", alt: "North Conway" },
+                { src: "https://live.staticflickr.com/65535/53766963447_0a91c68f87_z.jpg", alt: "Manchester by the sea" },
+
+                { src: "https://live.staticflickr.com/65535/53768292950_70eec9e796_z.jpg", alt: "Arches National Park" },
+                { src: "https://live.staticflickr.com/65535/53768292955_04bdb757b5_z.jpg", alt: "Woodstock, Vermont" },
+                { src: "https://live.staticflickr.com/65535/53768199869_3eda2b7320_z.jpg", alt: "Zhangjiajie, China" },
+                
+                { src: "https://live.staticflickr.com/65535/53767874946_f266b800a7_z.jpg", alt: "Mongolia" },
+                { src: "https://live.staticflickr.com/65535/53768292980_6e950b9501_z.jpg", alt: "Horseshoe Bend" },
+                { src: "https://live.staticflickr.com/65535/53768292975_2e30fddfd0_z.jpg", alt: "Horseshoe Bend" },
+
+                { src: "https://live.staticflickr.com/65535/53768292985_021821e95f_z.jpg", alt: "Icefields Parkway, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768199899_e50a8c9beb_z.jpg", alt: "Jasper National Park, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768293020_54be026420_z.jpg", alt: "12 Apostles, Australia" },
+
+                { src: "https://live.staticflickr.com/65535/53767874981_7608ec422c_z.jpg", alt: "Monument Valley" },
+                { src: "https://live.staticflickr.com/65535/53768293005_566c5a396d_z.jpg", alt: "Arches National Park" },
+                { src: "https://live.staticflickr.com/65535/53768199929_bd931b3cb1_z.jpg", alt: "Red Cliff Lodge" },
+
+                { src: "https://live.staticflickr.com/65535/53767874986_041f21b145_z.jpg", alt: "Yangshuo, Guilin, China" },
+                { src: "https://live.staticflickr.com/65535/53768199949_f1832d9721_z.jpg", alt: "Sleepy Hollow Farm, Vermont" },
+                { src: "https://live.staticflickr.com/65535/53768199959_ae68869215_z.jpg", alt: "Yellowstone National Park" },
+
+                { src: "https://live.staticflickr.com/65535/53768293025_a28e3ee4fa_z.jpg", alt: "Moraine Lake, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768293050_5db501fc2f_z.jpg", alt: "Moraine Lake, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768199969_457c677e62_z.jpg", alt: "Moraine Lake, Canada" },
+
+                { src: "https://live.staticflickr.com/65535/53767875016_839eff4d61_z.jpg", alt: "Moab, Utah" },
+                { src: "https://live.staticflickr.com/65535/53768067033_87b8012202_z.jpg", alt: "Dusk" },
+                { src: "https://live.staticflickr.com/65535/53768199929_bd931b3cb1_z.jpg", alt: "Red Cliff Lodge" },
+
+                { src: "https://live.staticflickr.com/65535/53766963532_963a459e75_z.jpg", alt: "Lake Louise, Canada" },
+                { src: "https://live.staticflickr.com/65535/53768067043_41bcaf48e3_z.jpg", alt: "Grand Canyon" },
+                { src: "https://live.staticflickr.com/65535/53768293055_9f2164f72e_z.jpg", alt: "Yellowstone National Park" },
+
+                { src: "https://live.staticflickr.com/65535/53768199979_873919b4c2_z.jpg", alt: "Grand Canyon" },
+                { src: "https://live.staticflickr.com/65535/53766963547_69cc8aaf6a_z.jpg", alt: "Old faithful geyser in Yellowstone National Park" },
+                { src: "https://live.staticflickr.com/65535/53768067068_ac8b945b6a_z.jpg", alt: "Yellowstone National Park" },
+
+                { src: "https://live.staticflickr.com/65535/53767875036_3a4cf6b312_z.jpg", alt: "Grand Teton" },
+                { src: "https://live.staticflickr.com/65535/53766963557_2d4e137dda_z.jpg", alt: "Moraine Lake, Canada" },
+                { src: "https://live.staticflickr.com/65535/53766963562_6bbb3a8132_z.jpg", alt: "Grand Teton" },
+
+                { src: "https://live.staticflickr.com/65535/53768067093_fc924bde44_z.jpg", alt: "Portland Head Light, Maine" },
+                { src: "https://live.staticflickr.com/65535/53768067098_00c3d6b684_z.jpg", alt: "Yellowstone National Park" },
+                { src: "https://live.staticflickr.com/65535/53768200004_378772c972_z.jpg", alt: "Grand Teton" },
+
+                { src: "https://live.staticflickr.com/65535/53766963592_0bc2a6193f_z.jpg", alt: "Monument Valley" },
+                { src: "https://live.staticflickr.com/65535/53767875041_d0f4fa0a33_z.jpg", alt: "Arches National Park" },
+                { src: "https://live.staticflickr.com/65535/53767875056_d8be0ebf73_z.jpg", alt: "Antelope Canyon" },
+
+                { src: "https://live.staticflickr.com/65535/53768200034_fec7c3ac71_c.jpg", alt: "Yellowstone National Park" },
+                { src: "https://live.staticflickr.com/65535/53767875086_d94ebb99fd_c.jpg", alt: "Yellowstone National Park" },
+                { src: "https://live.staticflickr.com/65535/53767875066_b068e2755c_z.jpg", alt: "Sleepy Hollow Farm, Vermont" }
+                
+                // Add more images
+            ],
+
+            drone: [
+            { src: "https://live.staticflickr.com/65535/53767346364_edc8129f7d_h.jpg", alt: "Aerial view of Colorado River" },
+            { src: "https://live.staticflickr.com/65535/53767437490_57a67d83f2_h.jpg", alt: "Aerial view of Utah" },
+            { src: "https://live.staticflickr.com/65535/53766110597_c801639dca_h.jpg", alt: "Aerial view of Arizona" },
+
+            { src: "https://live.staticflickr.com/65535/53767210823_967cd16724_h.jpg", alt: "Aerial view of Utah" },
+            { src: "https://live.staticflickr.com/65535/53767437835_2bcfed67f8_c.jpg", alt: "Atlantic Ocean" },
+            { src: "https://live.staticflickr.com/65535/53766110567_f3b8661950_h.jpg", alt: "Full moon" },
+
+            { src: "https://live.staticflickr.com/65535/53767021096_37986fce38_h.jpg", alt: "Drone view of Lynn Beach" },
+            { src: "https://live.staticflickr.com/65535/53767021401_444f2a6bde_h.jpg", alt: "Drone view of Marblehead Massachusetts" },
+            { src: "https://live.staticflickr.com/65535/53782853108_c3147eab20_c.jpg", alt: "Drone view of Lynn Beach" },
+
+            { src: "https://live.staticflickr.com/65535/53767211163_cea11980ec_z.jpg", alt: "Drone view of Lynn Beach" },
+            { src: "https://live.staticflickr.com/65535/53767021306_fb015110ba_c.jpg", alt: "Drone view of Lynn Beach" },
+            { src: "https://live.staticflickr.com/65535/53767021251_f5706dd0c3_z.jpg", alt: "Drone view of Lynn Beach" },
+            
+            { src: "https://live.staticflickr.com/65535/53767437785_0fa5528a18_z.jpg", alt: "Drone view of ocean in Maine" },
+            { src: "https://live.staticflickr.com/65535/53766110872_846a9debae_c.jpg", alt: "Lighthouse in Kittery, Maine" },
+            { src: "https://live.staticflickr.com/65535/53767346609_c56b195670_z.jpg", alt: "Fort Forster in Maine" },
+
+            { src: "https://live.staticflickr.com/65535/53767210938_aa2bec1060_z.jpg", alt: "Drone view of Marblehead, Massachusetts" },
+            { src: "https://live.staticflickr.com/65535/53767211243_6f1b205276_b.jpg", alt: "Portland Head Light in Maine" },
+            { src: "https://live.staticflickr.com/65535/53767346724_5b5e6b518c_z.jpg", alt: "Lighthouse in Maine" },
+
+            { src: "https://live.staticflickr.com/65535/53767437870_f324f0ce17_z.jpg", alt: "Drone view of Fort Forster" },
+            { src: "https://live.staticflickr.com/65535/53767021151_e7d585b682_z.jpg", alt: "Drone view of wild geese" },
+            { src: "https://live.staticflickr.com/65535/53767346739_5246e4c876_z.jpg", alt: "Drone view of basketball court" },
+
+            { src: "https://live.staticflickr.com/65535/53767437945_a78105e2bd_c.jpg", alt: "Drone view of Atlantic Ocean" },
+            { src: "https://live.staticflickr.com/65535/53767021086_61b5b4a3eb_b.jpg", alt: "Drone view of Fort Forster" },
+            { src: "https://live.staticflickr.com/65535/53767211233_5153174dd7_z.jpg", alt: "Drone view of tennis court" },
+
+            { src: "https://live.staticflickr.com/65535/53767211143_81c7a215bc_z.jpg", alt: "Town by the beach" },
+            { src: "https://live.staticflickr.com/65535/53766110692_fbe6d757f9_b.jpg", alt: "Air show" },
+            { src: "https://live.staticflickr.com/65535/53767021116_cf0c88f701_b.jpg", alt: "Air show" },
+
+            { src: "https://live.staticflickr.com/65535/53767021136_a122e0fa8d_b.jpg", alt: "Air show" },
+            { src: "https://live.staticflickr.com/65535/53767021171_6cd3594ac5_b.jpg", alt: "Air show" },
+            { src: "https://live.staticflickr.com/65535/53766110747_8219c8c7b6_b.jpg", alt: "Air show" }
+        ],
+
+            street: [
+
+                { src: "https://live.staticflickr.com/65535/53770665055_098a498b73_o.jpg", alt: "Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53770665060_70703499e2_o.jpg", alt: "New York Times building in NYC" },
+                { src: "https://live.staticflickr.com/65535/53771721675_979ba63c49_o.jpg", alt: "Paramount opera house in Boston" },
+
+                { src: "https://live.staticflickr.com/65535/53771707020_76db0a0eaa_c.jpg", alt: "A bike in Annecy" },
+                { src: "https://live.staticflickr.com/65535/53771708135_95cb70e73b_c.jpg", alt: "Street artist with his puppy in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53771708140_7b748e951e_c.jpg", alt: "Night in Hong Kong" },
+
+                { src: "https://live.staticflickr.com/65535/53771621809_0212159782_c.jpg", alt: "A lady in front of the Opera House" },
+                { src: "https://live.staticflickr.com/65535/53770388572_43cffd5455_o.jpg", alt: "Telephone box in London" },
+                { src: "https://live.staticflickr.com/65535/53771628554_fa72f66db6_o.jpg", alt: "A soldier on the horse in London" },
+
+                { src: "https://live.staticflickr.com/65535/53771505043_834b610c78_o.jpg", alt: "the London Eye" },
+                { src: "https://live.staticflickr.com/65535/53771721640_ae8c2f9491_o.jpg", alt: "Soldier on guard in Westminster" },
+                { src: "https://live.staticflickr.com/65535/53771721660_9c5748cc82_o.jpg", alt: "the Churchill Arms bar" },
+
+                { src: "https://live.staticflickr.com/65535/53771628549_b2095741fa_o.jpg", alt: "SOHO in London" },
+                { src: "https://live.staticflickr.com/65535/53771298441_89a3665727_o.jpg", alt: "A lady in Annecy" },
+                { src: "https://live.staticflickr.com/65535/53771628569_489b6b9b1c_o.jpg", alt: "Timeout Market in NYC" },
+
+                { src: "https://live.staticflickr.com/65535/53771298476_89541827fe_o.jpg", alt: "Worcester" },
+                { src: "https://live.staticflickr.com/65535/53770388592_dac6237c51_o.jpg", alt: "Brooklyn Bridge" },
+                { src: "https://live.staticflickr.com/65535/53770388597_bdfd83059e_o.jpg", alt: "Dumbo in Brooklyn" },
+
+                { src: "https://live.staticflickr.com/65535/53771628609_503bc25de3_o.jpg", alt: "Street view in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53771505098_17bbe1ab11_o.jpg", alt: "Street view in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53771721705_992c81a384_o.jpg", alt: "Christmas decoration in Boston" },
+
+                { src: "https://live.staticflickr.com/65535/53771505128_eb2d29e4db_o.jpg", alt: "Freedom trail in Boston" },
+                { src: "https://live.staticflickr.com/65535/53771298511_a16987bd3c_o.jpg", alt: "Subway in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53771628669_80a834569e_o.jpg", alt: "Street view in Hong Kong" },
+
+                { src: "https://live.staticflickr.com/65535/53770388662_7dff980f5d_o.jpg", alt: "Street view in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53771298516_0fdd7aff15_o.jpg", alt: "Street view in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53770388692_8886b30299_o.jpg", alt: "North end in Boston" },
+
+                { src: "https://live.staticflickr.com/65535/53770388702_8c7215d9ff_o.jpg", alt: "Window view in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53770388707_14990d1fd7_o.jpg", alt: "Street view in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53771298551_b67e4ff55d_o.jpg", alt: "Street view in Shanghai" },
+
+                { src: "https://live.staticflickr.com/65535/53771505163_3b9ca20eeb_o.jpg", alt: "Street view in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53771291651_b5697b037f_o.jpg", alt: "Street view in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53770381727_44e212b7a7_o.jpg", alt: "Water town in Shanghai" },
+
+                { src: "https://live.staticflickr.com/65535/53770451477_9957a066ef_z.jpg", alt: "Town view in Annecy" },
+                { src: "https://live.staticflickr.com/65535/53771692109_5f4444a503_z.jpg", alt: "Temple in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53771785085_8d704b50b5_z.jpg", alt: "Dunmbo in Brooklyn" },
+
+                { src: "https://live.staticflickr.com/65535/53771568408_1d8f01363f_z.jpg", alt: "Office hour in Manhattan" },
+                { src: "https://live.staticflickr.com/65535/53771692119_089fb651bc_z.jpg", alt: "Central park in Manhattan" },
+                { src: "https://live.staticflickr.com/65535/53771359976_0613962f0c_z.jpg", alt: "Tram in Zurich" },
+
+                { src: "https://live.staticflickr.com/65535/53771568448_b7d8d05efe_z.jpg", alt: "Skating in Central Park" },
+                { src: "https://live.staticflickr.com/65535/53770451502_9c3a290a02_z.jpg", alt: "City Square in Macau" },
+                { src: "https://live.staticflickr.com/65535/53771692159_b1e3fb458b_z.jpg", alt: "Street view in San Francisco" },
+
+                { src: "https://live.staticflickr.com/65535/53770451507_537cb9ca7c_z.jpg", alt: "Street view in San Francisco" },
+                { src: "https://live.staticflickr.com/65535/53771692174_a0c0178b15_z.jpg", alt: "Street view in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53771785120_c3f92d566a_z.jpg", alt: "Street view in Hong Kong" },
+
+                { src: "https://live.staticflickr.com/65535/53771692204_2af1c70f30_z.jpg", alt: "Temple in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53771360021_e4cb3e1452_z.jpg", alt: "Temple in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53771360016_87a0cd65d4_z.jpg", alt: "Miami" },
+
+                { src: "https://live.staticflickr.com/65535/53771360026_851b0f17ac_z.jpg", alt: "Street view in Boston" },
+                { src: "https://live.staticflickr.com/65535/53771360031_dd8a05eb78_z.jpg", alt: "Crossroad in Tokyo" },
+                { src: "https://live.staticflickr.com/65535/53770451537_32bd1290fa_z.jpg", alt: "Night view in Tokyo" },
+
+                { src: "https://live.staticflickr.com/65535/53771568478_8054281d44_c.jpg", alt: "Night view in Ginza, Tokyo" },
+                { src: "https://live.staticflickr.com/65535/53771360066_9c03b772d6.jpg", alt: "Harry Potter in London" },
+                { src: "https://live.staticflickr.com/65535/53771692249_a74b7a90bb.jpg", alt: "Street view in Notting Hill" },
+
+                { src: "https://live.staticflickr.com/65535/53770451547_9ccb227e9c_w.jpg", alt: "Notting Hill Bookshop" },
+                { src: "https://live.staticflickr.com/65535/53771785185_722306e0b3.jpg", alt: "Street view in Notting Hill" },
+                { src: "https://live.staticflickr.com/65535/53771785190_398d50c7d1.jpg", alt: "London Paddington Station" },
+
+                { src: "https://live.staticflickr.com/65535/53771568513_c5cf28d7e2_w.jpg", alt: "High tides in Lynn" },
+                { src: "https://live.staticflickr.com/65535/53771360071_db498045f7.jpg", alt: "Times Square in NYC" },
+                { src: "https://live.staticflickr.com/65535/53771360111_0472262e47.jpg", alt: "Brooklyn Bridge" },
+
+                { src: "https://live.staticflickr.com/65535/53771785250_27c08d4dbb_w.jpg", alt: "Old building in Boston" },
+                { src: "https://live.staticflickr.com/65535/53770451572_2cd3c2b7e4.jpg", alt: "Street view in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53771360121_c4249877c5.jpg", alt: "Street view in Shanghai" },
+
+                { src: "https://live.staticflickr.com/65535/53771785255_58df10187e_w.jpg", alt: "Brooklyn Bridge" },
+                { src: "https://live.staticflickr.com/65535/53770451602_d0c734098f.jpg", alt: "Brooklyn Bridge" },
+                { src: "https://live.staticflickr.com/65535/53771785260_30f2c803ef.jpg", alt: "Downtown Boston" },
+
+                { src: "https://live.staticflickr.com/65535/53771360166_cdf992f22d_w.jpg", alt: "Downtown Boston" },
+                { src: "https://live.staticflickr.com/65535/53771785310_ee34ec6fd8.jpg", alt: "Downtown Boston" },
+                { src: "https://live.staticflickr.com/65535/53771785320_443b05b5a8.jpg", alt: "Boston Ballet" },
+
+                { src: "https://live.staticflickr.com/65535/53771360181_8bc89a8a64_w.jpg", alt: "Street view in Boston" },
+                { src: "https://live.staticflickr.com/65535/53771785325_b08392fce4.jpg", alt: "Boston Ballet" },
+                { src: "https://live.staticflickr.com/65535/53771568613_bcfd4f4411.jpg", alt: "Christopher Columbus Waterfront Park" },
+
+                { src: "https://live.staticflickr.com/65535/53771785370_1aa4fa603e_w.jpg", alt: "Boston Logon Airport" },
+                { src: "https://live.staticflickr.com/65535/53770451657_ca820953de.jpg", alt: "the Oculus in NYC" },
+                { src: "https://live.staticflickr.com/65535/53771692399_3689e1993c.jpg", alt: "Carousel in Brooklyn" },
+
+                { src: "https://live.staticflickr.com/65535/53771360196_8e07d8f1cd.jpg", alt: "Night view from Brooklyn Bridge" },
+                { src: "https://live.staticflickr.com/65535/53771692409_364f917a4e.jpg", alt: "Night view from Brooklyn Bridge" },
+                { src: "https://live.staticflickr.com/65535/53771360226_9c6347678c.jpg", alt: "Night view from Brooklyn Bridge" }
+
+
+                
+                // Add more images...
+            ],
+
+            architecture: [
+                { src: "https://live.staticflickr.com/65535/53769553190_9cda7f7ec2_c.jpg", alt: "the Statue of Washington" },
+                { src: "https://live.staticflickr.com/65535/53769459619_24a488303e_c.jpg", alt: "Golden Gate Bridge" },
+                { src: "https://live.staticflickr.com/65535/53768219117_5709af88f7_c.jpg", alt: "the Capitol" },
+
+                { src: "https://live.staticflickr.com/65535/53769130691_f4077e8e4a_c.jpg", alt: "Washington Monument" },
+                { src: "https://live.staticflickr.com/65535/53769130706_26133471e0_c.jpg", alt: "the Building in Geneva" },
+                { src: "https://live.staticflickr.com/65535/53769130736_a420454128_c.jpg", alt: "the statue" },
+
+                { src: "https://live.staticflickr.com/65535/53768219147_07dd39aa08_c.jpg", alt: "the ancient Chinese house" },
+                { src: "https://live.staticflickr.com/65535/53769553250_510d63bac3_c.jpg", alt: "Toronto" },
+                { src: "https://live.staticflickr.com/65535/53768219157_12c369b3aa_c.jpg", alt: "Isabella Stewart Gardner Museum" },
+
+                { src: "https://live.staticflickr.com/65535/53769459634_caee02fa29_c.jpg", alt: "Guggenheim Museum" },
+                { src: "https://live.staticflickr.com/65535/53769130741_3fba76d4f6_c.jpg", alt: "Art and History Museum of Geneva" },
+                { src: "https://live.staticflickr.com/65535/53769130771_101e02cde7_c.jpg", alt: "the broken chair in Geneva" },
+
+                { src: "https://live.staticflickr.com/65535/53769130776_01bd649601_c.jpg", alt: "the library at Harvard University" },
+                { src: "https://live.staticflickr.com/65535/53769459679_e01e793e80_c.jpg", alt: "the Oculus in NYC" },
+                { src: "https://live.staticflickr.com/65535/53769459689_5af3a13f52_c.jpg", alt: "the Flat Iron Building" },
+
+                { src: "https://live.staticflickr.com/65535/53769259382_440ab8ae2a_c.jpg", alt: "the Oriental Pearl TV Tower in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53770498564_e40708ea3f_c.jpg", alt: "the Vessel in NYC" },
+                { src: "https://live.staticflickr.com/65535/53770373778_01d3a66f70_c.jpg", alt: "the Oriental Pearl TV Tower in Shanghai" },
+
+                { src: "https://live.staticflickr.com/65535/53770505949_4b9c1e707f_c.jpg", alt: "the Castle Hill Estate" },
+                { src: "https://live.staticflickr.com/65535/53770176396_a7b2514385_c.jpg", alt: "Night view of the Bund in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53770176401_9b6e42c4c3_c.jpg", alt: "Morning view of the Bund in Shanghai" },
+
+                { src: "https://live.staticflickr.com/65535/53770505944_fd6cb01fa5_c.jpg", alt: "Lucerne in Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53769266817_ed5c7150fa_c.jpg", alt: "Lucerne in Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53770505954_7f7b4267fd_c.jpg", alt: "Little Island in NYC" },
+
+                { src: "https://live.staticflickr.com/65535/53770380798_040f142f6f_c.jpg", alt: "Jinmao Tower in Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53770380818_375e35d906_c.jpg", alt: "Frankfurt" },
+                { src: "https://live.staticflickr.com/65535/53770176431_a2b6e87a3a_c.jpg", alt: "the Monster building in Hong Kong" },
+
+                { src: "https://live.staticflickr.com/65535/53770401288_2025d44c36_z.jpg", alt: "Tokyo Tower" },
+                { src: "https://live.staticflickr.com/65535/53770196946_ff5a566886_z.jpg", alt: "Brooklyn Bridge" },
+                { src: "https://live.staticflickr.com/65535/53770617765_16e4d95538_z.jpg", alt: "the Opera house in Sydney" },
+
+                { src: "https://live.staticflickr.com/65535/53770525939_98c9f9ed55_z.jpg", alt: "Miami" },
+                { src: "https://live.staticflickr.com/65535/53769287132_8d74db637e_z.jpg", alt: "Lucerne in Switzerland" },
+                { src: "https://live.staticflickr.com/65535/53770196971_9debccb00e_z.jpg", alt: "Macau" },
+
+                { src: "https://live.staticflickr.com/65535/53770196956_33f9ec0a91_z.jpg", alt: "Victoria Harbor in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53770617815_5505b741bd_z.jpg", alt: "the Capitol" },
+                { src: "https://live.staticflickr.com/65535/53770401313_1949693f16_z.jpg", alt: "Tidal Basin in Washington DC" },
+
+                { src: "https://live.staticflickr.com/65535/53770617805_e1733a0188_z.jpg", alt: "Central Park in Manhattan" },
+                { src: "https://live.staticflickr.com/65535/53770401318_ee0041bb16_z.jpg", alt: "Beijing" },
+                { src: "https://live.staticflickr.com/65535/53770617825_98c1eb5688_z.jpg", alt: "Beijing" },
+
+                { src: "https://live.staticflickr.com/65535/53770401323_ea83759d53_z.jpg", alt: "Shanghai" },
+                { src: "https://live.staticflickr.com/65535/53770617860_b98a937f25_z.jpg", alt: "Night view of Tokyo" },
+                { src: "https://live.staticflickr.com/65535/53770401343_30994291a4_z.jpg", alt: "Victoria Harbor in Hong Kong" },
+
+                { src: "https://live.staticflickr.com/65535/53770617845_26c9b4a767_z.jpg", alt: "Sydney Bridge" },
+                { src: "https://live.staticflickr.com/65535/53770197016_5a99a31aeb_z.jpg", alt: "Zurich" },
+                { src: "https://live.staticflickr.com/65535/53770197011_63b5278e3e_z.jpg", alt: "the Bund in Shanghai" },
+
+                { src: "https://live.staticflickr.com/65535/53770401378_a1e2cfbc5e_z.jpg", alt: "the Palace Museum" },
+                { src: "https://live.staticflickr.com/65535/53769287207_67856423d7_z.jpg", alt: "a southern town in China" },
+                { src: "https://live.staticflickr.com/65535/53770617875_dbdb7d3bb4_z.jpg", alt: "a southern town in China" },
+
+                { src: "https://live.staticflickr.com/65535/53770617870_66ab8ee8d0_z.jpg", alt: "a temple in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53770526014_232ac58d35_z.jpg", alt: "the ferry in Hong Kong" },
+                { src: "https://live.staticflickr.com/65535/53770197076_cec93c42b0_z.jpg", alt: "Golden Gate Bridge" },
+
+                { src: "https://live.staticflickr.com/65535/53770617915_1024090a6a_z.jpg", alt: "Annecy in France" },
+                { src: "https://live.staticflickr.com/65535/53770197086_0efc19b6ce_z.jpg", alt: "Suzhou Museum" },
+                { src: "https://live.staticflickr.com/65535/53770526024_bc7e85aae2_z.jpg", alt: "Lucern in Switzerland" }
+
+
+
+
+            ],
+
+            wildlife: [
+                { src: "https://live.staticflickr.com/65535/53772690995_eee9974389_o.jpg", alt: "Deer in front of the temple in Kyoto" },
+                { src: "https://live.staticflickr.com/65535/53772472593_e5612b0fbb_o.jpg", alt: "Kangaroo eating a carrot" },
+                { src: "https://live.staticflickr.com/65535/53772691000_4fbef90f6d_o.jpg", alt: "Alpacas in Vermont" },
+
+                { src: "https://live.staticflickr.com/65535/53772472558_ae372cb95d_o.jpg", alt: "Swiss dairy cows in the Alps mountains" },
+                { src: "https://live.staticflickr.com/65535/53772267496_17dd1e020a_c.jpg", alt: "Swiss dairy cow in the Alps mountains" },
+                { src: "https://live.staticflickr.com/65535/53772267491_91298533da_c.jpg", alt: "Eagle flying over the Alps" },
+
+                { src: "https://live.staticflickr.com/65535/53772472613_08e1116a2f_o.jpg", alt: "Sea gull in Maine" },
+                { src: "https://live.staticflickr.com/65535/53772472618_6f0a4c5420_o.jpg", alt: "Flamingo in the Northeastern Zoo" },
+                { src: "https://live.staticflickr.com/65535/53772280201_e5f70cfe08_o.jpg", alt: "Flamingo in the Northeastern Zoo" },
+
+                { src: "https://live.staticflickr.com/65535/53772599414_08978627f5_o.jpg", alt: "Duck in Miami beach" },
+                { src: "https://live.staticflickr.com/65535/53771356957_7416007088_o.jpg", alt: "Kangaroo in Sydney zoo" },
+                { src: "https://live.staticflickr.com/65535/53772472548_907c4fc9cc_o.jpg", alt: "Squirrel in Boston Common Park" },
+
+                { src: "https://live.staticflickr.com/65535/53772285746_88940975e9.jpg", alt: "Swiss sheep" },
+                { src: "https://live.staticflickr.com/65535/53772285741_ac8a0bacd6.jpg", alt: "Chipmunk in Grand Canyon" },
+                { src: "https://live.staticflickr.com/65535/53772285751_0cfc0987f9.jpg", alt: "Swiss cows" },
+
+                { src: "https://live.staticflickr.com/65535/53772490833_363a0fc524_c.jpg", alt: "Swiss cows" },
+                { src: "https://live.staticflickr.com/65535/53771375277_5a986ac62d_z.jpg", alt: "Swiss cows" },
+                { src: "https://live.staticflickr.com/65535/53772618179_9341d4e3c5_z.jpg", alt: "Farm in Vermont" },
+
+                { src: "https://live.staticflickr.com/65535/53772618189_57a5db0ef4_z.jpg", alt: "Swiss cows" },
+                { src: "https://live.staticflickr.com/65535/53772709555_bd5046d8ae_z.jpg", alt: "Swiss cows" },
+                { src: "https://live.staticflickr.com/65535/53772618199_3f92848f0b_z.jpg", alt: "Swiss cows" },
+
+                { src: "https://live.staticflickr.com/65535/53772618209_0ff744495f_z.jpg", alt: "Golden Gate Bridge" },
+                { src: "https://live.staticflickr.com/65535/53772709580_1e01585a9f_z.jpg", alt: "Chipmunk in Arizona" },
+                { src: "https://live.staticflickr.com/65535/53772490863_a1d4a8fa9a_z.jpg", alt: "Sydney harbor" },
+
+                { src: "https://live.staticflickr.com/65535/53772490873_4740ef0f91_z.jpg", alt: "Squirrel in front of the camera" },
+                { src: "https://live.staticflickr.com/65535/53772618239_4588e93990_z.jpg", alt: "horse at a Vermont farm" },
+                { src: "https://live.staticflickr.com/65535/53772618234_13dc93a4d8_z.jpg", alt: "horse at a Vermont farm" },
+
+                { src: "https://live.staticflickr.com/65535/53772490883_76bb429a79_z.jpg", alt: "Squirrel on a tree branch" },
+                { src: "https://live.staticflickr.com/65535/53772618249_654a1ea142_z.jpg", alt: "Cat in the yard" },
+                { src: "https://live.staticflickr.com/65535/53772709595_561e0d5523_z.jpg", alt: "Kangaroo in Sydney zoo" },
+
+                { src: "https://live.staticflickr.com/65535/53771375307_4ed3bb6396_z.jpg", alt: "Crow in the Arches National Park" },
+                { src: "https://live.staticflickr.com/65535/53772490888_9e0feefd1c_z.jpg", alt: "Goldfish" },
+                { src: "https://live.staticflickr.com/65535/53772490898_69a48a3435_z.jpg", alt: "Sheep farm" },
+
+
+                { src: "https://live.staticflickr.com/65535/53772618259_5f7573cf7a_z.jpg", alt: "Alpaca in Martha's Vineyard" },
+                { src: "https://live.staticflickr.com/65535/53772709645_90abe7878a_z.jpg", alt: "Moose in the Yellowstone National Park" },
+                { src: "https://live.staticflickr.com/65535/53772618264_d1d4bf9b0b_z.jpg", alt: "Grizzly bear cub in Jasper National Park" },
+
+                { src: "https://live.staticflickr.com/65535/53772285811_153faef2d7_z.jpg", alt: "Bison in the Grand Teton" },
+                { src: "https://live.staticflickr.com/65535/53772709655_ee190330f0_z.jpg", alt: "Black bear in Banff National Park" }
+               
+            ],
+
+            macro: [
+                { src: "https://live.staticflickr.com/65535/53770643860_17bc36e8cb_c.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53770551134_dc74de3576_c.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53769312442_ef9629b7ae_c.jpg", alt: "Macro shot" },
+
+                { src: "https://live.staticflickr.com/65535/53769312432_0f11040238_c.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53770427258_6f4e8e6d10_c.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53769312452_a9fd66c0bb_c.jpg", alt: "Macro shot" },
+
+                { src: "https://live.staticflickr.com/65535/53769312437_2a6e04867f_c.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53770643885_976b159e67_c.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53770643875_6b868e7e0f_c.jpg", alt: "Macro shot" },
+
+                { src: "https://live.staticflickr.com/65535/53770560834_918e0fc10e_z.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53769321727_e20068fdeb_z.jpg", alt: "Macro shot" },
+                { src: "https://live.staticflickr.com/65535/53770560824_9be17038e6_z.jpg", alt: "Macro shot" }
+
+            ]
+        };
+    
+        const itemsPerPage = 15; // Number of items per page
+    
+        function loadImages(category, page = 1) {
+            let galleryId = `#${category}-gallery`;
+            let paginationId = `#${category}-pagination`;
+            $(galleryId).empty();
+            $(paginationId).empty();
+    
+            let imagesToShow = images[category];
+            let totalItems = imagesToShow.length;
+            let totalPages = Math.ceil(totalItems / itemsPerPage);
+    
+            let start = (page - 1) * itemsPerPage;
+            let end = start + itemsPerPage;
+    
+            imagesToShow.slice(start, end).forEach(image => {
+                $(galleryId).append(`
+                    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                        <img src="${image.src}" alt="${image.alt}" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-title="${image.alt}" data-bs-imgsrc="${image.src}">
+                    </div>
+                `);
+            });
+    
+            if (totalPages > 1) {
+                let paginationHtml = '';
+                for (let i = 1; i <= totalPages; i++) {
+                    paginationHtml += `<li class="page-item ${i === page ? 'active' : ''}"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
+                }
+                $(paginationId).html(paginationHtml);
+    
+                $(paginationId).find('.page-link').click(function(e) {
+                    e.preventDefault();
+                    let selectedPage = $(this).data('page');
+                    loadImages(category, selectedPage);
+
+                // Scroll to the top of the gallery container
+                $('html, body').animate({
+                    scrollTop: $(galleryId).offset().top
+                }, 500);
+                });
+            }
+        }
+    
+        loadImages('all');
+    
+        $('#galleryTabs a').on('shown.bs.tab', function(e) {
+            let category = $(e.target).attr('href').substring(1);
+            loadImages(category);
+        });
+    
+        $('.dropdown-item').click(function() {
+        let category = $(this).data('value');
+        $('#galleryDropdown').text($(this).text());
+        $(`#${category}-tab`).tab('show');
+        loadImages(category);
+
+        // Scroll to the top of the gallery container
+        $('html, body').animate({
+            scrollTop: $(`#${category}-gallery`).offset().top
+        }, 500);
+    });
+    
+        $('#imageModal').on('show.bs.modal', function (e) {
+            let img = $(e.relatedTarget);
+            let title = img.data('bs-title');
+            let src = img.data('bs-imgsrc');
+            $('#imageModalLabel').text(title);
+            $('#modalImage').attr('src', src);
+        });
+    });
+    </script>
+    
+    
+</body>
+</html>

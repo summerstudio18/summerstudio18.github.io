@@ -3945,7 +3945,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   color: #1abc9c;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -3953,7 +3953,8 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #15967d;
+  color: #fff;
+ 
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3962,7 +3963,8 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
-  border-bottom: 0.125rem solid #dee2e6;
+  border-bottom: 0.125rem solid #1abc9c;
+  margin-bottom: 8px;
 }
 .nav-tabs .nav-link {
   margin-bottom: -0.125rem;
@@ -3972,8 +3974,10 @@ textarea.form-control-lg {
   border-top-right-radius: 0.5rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+
   isolation: isolate;
+  color: #fff;
+  background-color: #1abc9c;
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
@@ -3984,7 +3988,7 @@ textarea.form-control-lg {
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+
 }
 .nav-tabs .dropdown-menu {
   margin-top: -0.125rem;
@@ -11366,7 +11370,7 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #212529;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
@@ -11382,6 +11386,7 @@ html {
   padding: 0.8rem;
 }
 
+/* navigation menu styling */
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -11396,12 +11401,12 @@ html {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+    color: #1abc9c;
+
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: #1abc9c;
+ 
   }
 
   #mainNav.navbar-shrink {
@@ -11506,4 +11511,18 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
