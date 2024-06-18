@@ -87,7 +87,7 @@
                         </div>
                         <!-- About Section Button-->
                         <div class="text-center mt-4">
-                            <a class="btn btn-xl btn-outline-light" href="https://kikixia.neocities.org/KikiXia_Resume.pdf" target="_blank" download>
+                            <a class="btn btn-lg btn-outline-light" href="https://kikixia.neocities.org/KikiXia_Resume.pdf" target="_blank" download>
                                 <i class="fas fa-download me-2"></i>
                                 Resume
                             </a>
@@ -117,12 +117,63 @@
             </div>
             <!-- Portfolio Button-->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-dark" href="https://1drv.ms/b/s!AkBWtglT8TeT6W-ylErK91Rfcxtt?e=eZqLC1" target="_blank">
+                <a class="btn btn-lg btn-outline-dark" href="https://1drv.ms/b/s!AkBWtglT8TeT6W-ylErK91Rfcxtt?e=eZqLC1" target="_blank">
                     <i class="fas fa-eye me-2"></i>
                     Portfolio
                 </a>
             </div>
         </section>
+
+        <!-- Card Design Columns Section -->
+        <section class="page-section bg-light" id="projects">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/img/Whale.jpg" alt="Project 1">
+                            <div class="card-body">
+                                <h4 class="card-title">Whale Tales Native App</h4>
+                                <p class="card-text project-description" id="desc1">
+                                    “Whale Tales” is your local passport to the enchanting world of whales in the heart of the New England area. Dive into a sea of wonder and discover the mysterious stories of individual whales, track real-time sightings in the local area, and even adopt your very own majestic marine friend.<br>It’s time to escape from the hustle and bustle and dive deep into the ocean. Find your haven of tranquility from a list of soothing whale songs for meditation. You might also be a winner in our exciting raffle if you share your experiences and insights with us through feedback.<br>Embark on an extraordinary journey into the tales of the deep ocean with “Whale Tales”. Download the app today and book a whale watch tour now to explore the wonders of the deep blue.
+                                </p>
+                                <a href="#" class="view-more" data-target="#desc1">See More</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://www.figma.com/proto/QDT684IVJHDQzXqmcvGKFo/Term-Project---Kiki-Xia?page-id=1%3A9&type=design&node-id=1512-1661&viewport=-16%2C527%2C0.39&t=IUXlsi7vjLlOUnDP-1&scaling=scale-down&starting-point-node-id=1758%3A3608&mode=design" class="btn btn-primary btn-sm" target="_blank">View Prototype</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/img/ShopEase.jpg" alt="Project 2">
+                            <div class="card-body">
+                                <h4 class="card-title">ShopEase React App</h4>
+                                <p class="card-text project-description" id="desc1">
+                                    ShopEase is a React app designed to simplify shopping list management for users. With ShopEase, users can effortlessly organize their shopping tasks, making the shopping experience more efficient and convenient.<br>
+                                    All user interface are written using React JSX syntax. I’ve utilized React Hooks such as `useState` and `useEffect` to manage state and side effects within functional components. React Router is used to implement client-side routing, allowing users to navigate between pages without a page refresh.<br><br>
+                                    <b>Key objectives include:</b><br>
+                                    •	Task Management: Enable users to add, delete, edit, and mark items as completed on their shopping list.<br>
+                                    •	User Interface: Create a clean and modern interface that allows users to interact with their shopping list intuitively.<br>
+                                    •	Persistence: Implement local storage to ensure that users' shopping lists are saved even after they close the app or refresh the page.<br>
+                                    •	Accessibility: Ensure that the app is accessible to a wide range of users by adhering to accessibility standards (Level AA) and best practices.<br>
+                                    •	Scalability: Design the app in a modular and scalable way to facilitate future enhancements and additions to its functionality.<br>
+                                    •	Usability: Optimize the app for performance to ensure smooth and responsive user experience, even with a large number of items on the shopping list.<br>
+                                    •	Deployment: Successfully deploy the app to a hosting platform to make it accessible to users online.<br>
+                                    •	Responsiveness: Ensure the app responds seamlessly to various device sizes such as mobile, tablet, and desktop.<br>
+
+                                </p>
+                                <a href="#" class="view-more" data-target="#desc1">See More</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://shopease-react-app.netlify.app/" class="btn btn-primary btn-sm" target="_blank">View App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -172,5 +223,19 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.view-more').forEach(function(link) {
+            link.addEventListener('click', function(event) {
+            event.preventDefault();
+            var cardBody = link.closest('.card-body');
+            var description = cardBody.querySelector('.project-description');
+            description.style.display = 'block';
+            description.style.webkitLineClamp = 'unset';
+            link.style.display = 'none';
+                    });
+                });
+            });
+        </script>
     </body>
 </html>
